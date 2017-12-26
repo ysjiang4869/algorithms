@@ -23,7 +23,7 @@ class QuickSort extends SortMethod{
                 }
             }
 
-            //从右扫描，出现右侧小于Vde，停止扫描；或者指针到达最左侧停止扫描
+            //从右扫描，出现右侧小于V的，停止扫描；或者指针到达最左侧停止扫描
             while (less(v,a[--j])){
                 if(j==lo){
                     break;

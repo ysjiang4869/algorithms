@@ -10,8 +10,6 @@ import java.util.ArrayList;
  */
 public class MaxPQ<Key extends Comparable<Key>> extends HeapMethod<Key>{
 
-    private int N=0;
-
     public MaxPQ(int maxN) {
         pq= new ArrayList<Key>(maxN).toArray(pq);
     }
