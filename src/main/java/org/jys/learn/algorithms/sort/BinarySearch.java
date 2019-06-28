@@ -1,4 +1,8 @@
-package org.jys.learn.algorithms.chapter1;
+package org.jys.learn.algorithms.sort;
+
+import edu.princeton.cs.introcs.StdIn;
+
+import java.util.Arrays;
 
 /**
  * Created by ysjiang on 2017/12/25.
@@ -29,5 +33,19 @@ public class BinarySearch {
             }
         }
         return -1;
+    }
+
+    public static void main(String[] args){
+        int[] whitelist=new int[]{1,34,56,23,45,36,863,23,74,346,457};
+        Arrays.sort(whitelist);
+        System.out.println("the array is:"+Arrays.toString(whitelist));
+        System.out.println("enter the num to find: ");
+        int target=StdIn.readInt();
+        int index=rank(target,whitelist);
+        if (index<0){
+            System.out.println("can not find");
+        }else {
+            System.out.println("the index of target is: "+index);
+        }
     }
 }
