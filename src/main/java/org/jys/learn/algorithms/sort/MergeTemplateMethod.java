@@ -5,7 +5,7 @@ package org.jys.learn.algorithms.sort;
  * @date 2019/6/28
  * @description <p> </p>
  */
-public abstract class MergeTemplateMethod<T extends Comparable<T>> extends SortTemplateMethod<T>  {
+public abstract class MergeTemplateMethod<T extends Comparable<T>> implements SortTemplateMethod<T>  {
 
     //init aux in sub class so it no need to reallocate space
     protected T[] aux;

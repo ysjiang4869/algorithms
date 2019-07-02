@@ -5,7 +5,7 @@ package org.jys.learn.algorithms.sort;
  * @date 2019/6/28
  * @description <p> </p>
  */
-public abstract class QuickTemplateMethod<T extends Comparable<T>> extends SortTemplateMethod<T> {
+public abstract class QuickTemplateMethod<T extends Comparable<T>> implements SortTemplateMethod<T> {
 
 
     public int  partition(T[] a, int lo, int hi){

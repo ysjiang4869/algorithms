@@ -5,7 +5,7 @@ package org.jys.learn.algorithms.sort;
  * @date 2019/6/17
  * @description <p> </p>
  */
-public class Shell<T extends Comparable<T>> extends SortTemplateMethod<T> {
+public class Shell<T extends Comparable<T>> implements SortTemplateMethod<T> {
 
     @Override
     public void sort(T[] a) {
