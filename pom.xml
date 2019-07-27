@@ -7,6 +7,18 @@
     <groupId>org.jys.learn</groupId>
     <artifactId>algorithms</artifactId>
     <version>1.0-SNAPSHOT</version>
+
+
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/edu.princeton.cs.introcs/algs4-package -->
+        <dependency>
+            <groupId>com.googlecode.princeton-java-algorithms</groupId>
+            <artifactId>algorithms</artifactId>
+            <version>4.0.1</version>
+        </dependency>
+
+    </dependencies>
+
     <build>
         <plugins>
             <plugin>
@@ -19,15 +31,5 @@
             </plugin>
         </plugins>
     </build>
-
-    <dependencies>
-            <!-- https://mvnrepository.com/artifact/edu.princeton.cs.introcs/algs4-package -->
-        <dependency>
-        <groupId>com.googlecode.princeton-java-algorithms</groupId>
-        <artifactId>algorithms</artifactId>
-        <version>4.0.1</version>
-        </dependency>
-
-    </dependencies>
 
 </project>
